@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "879597248978",
+    "firebase_url": "https://littleminds-57ff9.firebaseio.com",
+    "project_id": "littleminds-57ff9",
+    "storage_bucket": "littleminds-57ff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879597248978:android:48832a068074692b9f280b",
+        "android_client_info": {
+          "package_name": "com.example.littleminds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879597248978-ar4dp0rjnnjnc2gagipmmo51c5da25pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.littleminds",
+            "certificate_hash": "d49b11d4d3784c5baf1b7b6e70868ee25473555d"
+          }
+        },
+        {
+          "client_id": "879597248978-lfe1q42nqcr5u0hqbu4lsdgdc1gjcuvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp3X-VoI2fJTEEAgJWPKcOcKHILJHaq2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879597248978-lfe1q42nqcr5u0hqbu4lsdgdc1gjcuvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,115 @@
+{
+  "Staff" : {
+    "Kalana" : {
+      "name" : "Kalana",
+      "password" : "1234",
+      "phone" : "0772345213"
+    },
+    "Malith" : {
+      "name" : "Malith",
+      "password" : "4321",
+      "phone" : "0776543123"
+    },
+    "Sumudu" : {
+      "name" : "Sumudu",
+      "password" : "1234",
+      "phone" : "0765432123"
+    }
+  },
+  "Students" : {
+    "S001" : {
+      "TeacherName" : "Ms. Bagya",
+      "TeacherTP" : "0778547582",
+      "name" : "Yohan",
+      "num" : "S001",
+      "parentTP" : "0778545874",
+      "parent_name" : "Pavan"
+    },
+    "S002" : {
+      "TeacherName" : "Ms. Kalani",
+      "TeacherTP" : "0774321567",
+      "name" : "Gihan",
+      "num" : "S002",
+      "parentTP" : "0778964132",
+      "parent_name" : "Sahan"
+    },
+    "S003" : {
+      "TeacherName" : "Ms.Bagya",
+      "TeacherTP" : "0917545234",
+      "name" : "Pavara",
+      "num" : "S003",
+      "parentTP" : "0754531652",
+      "parent_name" : "Gihan"
+    },
+    "S004" : {
+      "TeacherName" : "Ms. Kalani",
+      "TeacherTP" : "0765432111",
+      "name" : "Madavi",
+      "num" : "S004",
+      "parentTP" : "0775434333",
+      "parent_name" : "Supun"
+    },
+    "S005" : {
+      "TeacherName" : "Ms. Kalani",
+      "TeacherTP" : "0723422123",
+      "name" : "Malithi",
+      "num" : "S005",
+      "parentTP" : "0754321121",
+      "parent_name" : "Kumuduni"
+    }
+  },
+  "Students_Status" : {
+    "S001" : {
+      "num" : "S001",
+      "status1" : "Good",
+      "status2" : "Excellent",
+      "status3" : "Bad",
+      "status4" : "Good"
+    },
+    "S002" : {
+      "num" : "S002",
+      "status1" : "Good",
+      "status2" : "Excellent",
+      "status3" : "Excellent",
+      "status4" : "Good"
+    },
+    "S003" : {
+      "num" : "S003",
+      "status1" : "Good",
+      "status2" : "Bad",
+      "status3" : "Bad",
+      "status4" : "Good"
+    },
+    "S004" : {
+      "num" : "S004",
+      "status1" : "Excellent",
+      "status2" : "Good",
+      "status3" : "Bad",
+      "status4" : "Bad"
+    },
+    "S005" : {
+      "num" : "S005",
+      "status1" : "Good",
+      "status2" : "Bad",
+      "status3" : "Excellent",
+      "status4" : "Bad"
+    }
+  },
+  "Teachers" : {
+    "Bagya" : {
+      "name" : "Bagya",
+      "password" : "1234",
+      "phone" : "075432765"
+    },
+    "Parami" : {
+      "name" : "Parami",
+      "password" : "1234",
+      "phone" : "0712321221"
+    },
+    "Vikum" : {
+      "name" : "Vikum",
+      "password" : "4321",
+      "phone" : "091"
+    }
+  }
+}

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStudent">
+
+    <RelativeLayout
+        android:layout_width="413dp"
+        android:layout_height="768dp"
+        android:background="@drawable/k23"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:text="Add Student"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="15dp"
+            android:hint="Student Num"
+            android:inputType="textCapWords"
+            android:padding="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="15dp"
+            android:hint="Student Name"
+            android:inputType="textCapWords"
+            android:padding="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/parent_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginRight="15dp"
+            android:hint="Parent Name"
+            android:inputType="textCapWords"
+            android:padding="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/parent_tp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginRight="15dp"
+            android:hint="Parent Contact Number"
+            android:inputType="textCapWords"
+            android:padding="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/teacher_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginRight="15dp"
+            android:hint="Teacher Name"
+            android:inputType="textCapWords"
+            android:padding="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/teacher_tp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginRight="15dp"
+            android:hint="Teacher Contact Number"
+            android:inputType="textCapWords"
+            android:padding="20dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="207dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="113dp"
+            android:layout_marginLeft="113dp"
+            android:layout_marginEnd="93dp"
+            android:layout_marginRight="93dp"
+
+
+            android:layout_marginBottom="115dp"
+            android:background="@drawable/buttons"
+            android:padding="16dp"
+            android:text="Add Student"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

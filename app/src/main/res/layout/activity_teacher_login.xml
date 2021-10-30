@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherLogin">
+
+    <RelativeLayout
+        android:layout_width="413dp"
+        android:layout_height="774dp"
+        android:background="@drawable/k27"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+
+        <ImageView
+            android:layout_width="375dp"
+            android:layout_height="99dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginLeft="72dp"
+
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:text="Teacher Login"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/login_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="15dp"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:padding="20dp"
+            android:text="Vikum"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="15dp"
+            android:hint="Password"
+
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:text="4321"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/remember_me_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="440dp"
+            android:gravity="center_vertical"
+            android:text="Remember me"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            tools:ignore="MissingClass" />
+
+        <Button
+            android:id="@+id/option_button"
+            android:layout_width="241dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="83dp"
+
+            android:layout_marginLeft="83dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="163dp"
+            android:background="@drawable/buttons"
+            android:padding="16dp"
+
+
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="32sp" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
