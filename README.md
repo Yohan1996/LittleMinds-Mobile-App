@@ -18,5 +18,8 @@ ER Diagram
 
 Interfaces
 
+![image](https://user-images.githubusercontent.com/69201980/142454363-3db175af-d47b-4ecd-9ce1-deaa3a3b0d2e.png)
+
+![image](https://user-images.githubusercontent.com/69201980/142454405-b7e0ddc1-a2f8-4e54-84e4-920bd43161ae.png)
 
 
